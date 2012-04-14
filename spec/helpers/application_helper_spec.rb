@@ -1,6 +1,7 @@
+require 'spec_helper'
 include ApplicationHelper do
 
-  describe "full_title" do
+  describe "full_title" dogit
     it "should include the page name" do
       full_title("foo").should =~ /foo/
     end
