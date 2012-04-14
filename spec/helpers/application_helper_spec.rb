@@ -1,5 +1,5 @@
 require 'spec_helper'
-include ApplicationHelper do
+describe ApplicationHelper do
 
   describe "full_title" do
     it "should include the page name" do

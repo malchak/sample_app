@@ -67,6 +67,3 @@ include ApplicationHelper
     page.should have_selector 'title', text: full_title('Sign up')
   end
 end
-
-
-  
